@@ -1,3 +1,12 @@
 I could not find any good templates to use when making my website, but every Engineering student needs one. 
 That's why I took the time to make my own. You can modify the colors, images, or anything you want. 
 Have fun :)
+
+1) Make a folder anywhere on your laptop, this is where you'll put your code
+2) Download my code, or copy and paste it into step 4
+3) Open VSCode, go to file > Open Folder > and open the folder you created 
+4) Create two files: index.html, styles.css (copy and paste my code in this repo)
+5) I added comments about where you should modify the code.
+6) If you have questions, comment on my linkedin, email me, or ask ai.
+
+I hope this template is good for you to make your portfolio. 
