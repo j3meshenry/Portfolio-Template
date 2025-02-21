@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <hr style="position:relative; top: 150px;" width= "100%" color="black" noshade>
+    </div>
+        <div class="col-md-8">
+            <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <img style="width:70px;height:70px;"class="brand" src="insert_ur_logo_here.filetype">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#projects">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#skills">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <h2 style="position:relative;left:50%;transform:translateX(-10%)">About</h2>
+        <!-- You can modify any of the white text in here to say what you want.-->
+        <p>intro paragraph 1  </p>
+
+           <p> intro paragraph 2
+           </p> 
+
+           <p> intro paragraph 3  </p>
+
+            <p>intro paragraph 4  </p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="skill.logo" alt="Skill Icon">
+                <p>skill_name</p>
+            </div>
+        <!-- highlight the line below to start duplicating and adding more-->
+            <div class="skill-card">
+                <img src="skill.logo" alt="Skill Icon">
+                <p>skill_name</p>
+        </div>
+        <!--End highlight at that 'div' line above this to duplicate this. Paste UNDER comment-->
+    </section>
+    <!-- THIS SECTION IS FOR THE PROJECTS :)  -->
+    <hr style="position:relative; top: 150px;" width= "100%" color="black" noshade>
+
+        <div class="project">
+            <h3>Project 1</h3>
+            <div class="project-details">
+                <div class="project-images">
+                    <img src="Project1image.type" alt="what is this image">
+                    <!--If the project has multiple images, do what i did in the line below :) otherwise delete it-->
+                    <img src="image.type" alt="what is this image">
+                </div>
+                <p>Descrition of project</p>
+        </div>
+        </div>
+        </div>
+    </section> 
+    
+    <!-- THIS SECTION IS FOR THE CONTACTS :)) -->
+    <hr style="position:relative; top: 150px;" width="100%" color="black" noshade="">
+    <section id="contact">
+        <h2 style="display:relative;left:50%;transform: translateX(42%);">Contact</h2>
+        <div class="contact-icons">
+            <div class="contact-icons">
+                <a href="mailto:youremail@email.com" class="contact-icon" title="Email">
+                    <img src="gmail.jpg" alt="Email">
+                </a>
+
+                <!-- REPLACE THE LINK WITH YOUR OWN!!! -->
+                <a href="linkedin.com/yourusername" class="contact-icon" title="LinkedIn" target="_blank">
+                    <img src="linkedin.png" alt="LinkedIn">
+                </a>
+                <!-- REPLACE THE LINK WITH YOUR OWN!!! -->
+                <a href="GITHUB.com/username" class="contact-icon" title="GitHub" target="_blank">
+                    <img src="github.png" alt="GitHub">
+                </a>
+            </div>
+        </section>
+    <footer>
+        <p>&copy; 2025 your name</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function toggleProject(element) {
+            const projectDetails = element.nextElementSibling;
+            projectDetails.classList.toggle('expanded');
+        }
+    </script>
+</body>
+</html>
